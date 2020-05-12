@@ -1,0 +1,59 @@
+body{
+  background-color: #c4c4bb;
+}
+
+.cabecalho{
+  font-size: 32px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.cabecalho a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+}
+
+.menu ul li{
+  list-style: none;
+  display: inline;
+  margin: 20px;
+}
+
+.menu{
+  margin: 0 25% 0 20%;
+}
+
+.secao-1{
+  font-size: 24px;
+  text-align: justify;
+  float: left;
+}
+
+.articles{
+  background-color: rgba(0, 117, 255, 0.36);
+  font-family: 'Verdana';
+  font-size: 12px;
+  width: 30%;
+}
+
+.lateral-direita{
+  height: 810px;
+  width: 100px;
+  position: absolute;
+  left: 92.4%;
+  background-image: url(https://panoramas.tur.br/virtualtour360/wp-content/uploads/2017/09/contact-100x900.jpg);
+}
+
+
+.rodape a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+}
+
+.rodape{
+  clear: left;
+  font-size: 32px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 61.9% 0 0 0;
+}
