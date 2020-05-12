@@ -1,142 +1,72 @@
 @charset "UTF-8";
-
-.wrapper{
-  display: flex;
-  font-weight: bold;
-  text-align: center;
-  color: #fff;
-  flex-flow: row wrap;
+.wrapper {
+    display: flex;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    flex-flow: row wrap;
 }
 
-.wrapper *{
-  padding: 10px;
-  flex: 1 100%;
-
+.wrapper * {
+    padding: 10px;
+    flex: 1 100%;
 }
 
-.cabecalho{
-  background-color: #fc4c26;
+.cabecalho {
+    background-color: #fc4c26;
 }
 
-.rodape{
-  background-color: #79f622;
+.rodape {
+    background-color: #79f622;
 }
 
-.principal{
-  text-align: left;
-  background-color: #1b2ed2;
+.principal {
+    text-align: left;
+    background-color: #1b2ed2;
 }
 
-.lateral-1{
-  background-color: #d9d352;
+.lateral-1 {
+    background-color: #d9d352;
 }
 
-.lateral-2{
-  background-color: #7324cf;
+.lateral-2 {
+    background-color: #7324cf;
 }
+
+
 /*RESPONSIVIDADE*/
-  @media all and (min-width: 600px){
-    .lateral{
-      /*flex = A abreviação para flex-grow, flex-shrink e flex-basis, tudo combinado.
+
+@media all and (min-width: 600px) {
+    .lateral {
+        /*flex = A abreviação para flex-grow, flex-shrink e flex-basis, tudo combinado.
         Ou Seja, você aplica isso aqui como parâmetros em sequência. o flex-shrink e o flex-basis são opcionais.
         Ex;
         .class{
          flex: 2 1px 1px;
       }
       */
-      flex: 1 0 0;
+        flex: 1 0 0;
     }
-  }
-
-  @media all and (min-width :800px) {
-    .principal{flex: 3 0px;}
-    .lateral-1{ order: 1;}
-    .principal{ order: 2;}
-    .lateral-2{ order: 3;}
-    .lateral-1{ order: 4;}
-  }
-
-body{
-  padding: 2em;
 }
-/*RESPONSIVIDADE*/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
+
+@media all and (min-width :800px) {
+    .principal {
+        flex: 3 0px;
+    }
+    .lateral-1 {
+        order: 1;
+    }
+    .principal {
+        order: 2;
+    }
+    .lateral-2 {
+        order: 3;
+    }
+    .lateral-1 {
+        order: 4;
+    }
+}
+
+body {
+    padding: 2em;
+}
