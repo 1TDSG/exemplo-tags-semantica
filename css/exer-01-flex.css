@@ -1,66 +1,77 @@
 @charset "UTF-8";
-
+*{
+  max-width: 1100px;
+}
 .wrapper{
   display: flex;
   font-weight: bold;
   text-align: center;
-  color: #fff;
-  flex-flow: row wrap;
+  flex-flow: column;
+  border-radius: 5px;
+  border: 3px solid #0000ff;
+  height: 900px;
+  width: auto;
 }
-
-.wrapper *{
-  padding: 10px;
-  flex: 1 100%;
-
-}
-
-.cabecalho{
-  background-color: #fc4c26;
-}
-
-.rodape{
-  background-color: #79f622;
-}
-
-.principal{
-  text-align: left;
-  background-color: #1b2ed2;
-}
-
-.lateral-1{
-  background-color: #d9d352;
-}
-
-.lateral-2{
-  background-color: #7324cf;
-}
-/*RESPONSIVIDADE*/
-  @media all and (min-width: 600px){
-    .lateral{
-      /*flex = A abreviação para flex-grow, flex-shrink e flex-basis, tudo combinado.
-        Ou Seja, você aplica isso aqui como parâmetros em sequência. o flex-shrink e o flex-basis são opcionais.
-        Ex;
-        .class{
-         flex: 2 1px 1px;
-      }
-      */
-      flex: 1 0 0;
-    }
-  }
-
-  @media all and (min-width :800px) {
-    .principal{flex: 3 0px;}
-    .lateral-1{ order: 1;}
-    .principal{ order: 2;}
-    .lateral-2{ order: 3;}
-    .lateral-1{ order: 4;}
-  }
 
 body{
   padding: 2em;
 }
-/*RESPONSIVIDADE*/
-/**/
+
+.box{
+
+  display: block;
+
+  padding: 5px;
+  margin: 20px;
+  border: 2px solid #ff0000;
+}
+
+.box-1{
+  flex-basis:10%;
+}
+
+.box-2{
+  display: flex;
+  height: 150px;
+}
+/*child of box-2*/
+.box-child-1{
+  flex-basis: 21%;
+}
+.box-child-2{
+  flex-grow: 1;
+}
+/*child of box-2*/
+.box-3{
+  display: flex;
+  height: 300px;
+}
+/*child of box-3*/
+.box-child-3{
+  flex-grow: 1;
+}
+.box-child-4{
+  flex-grow: 1;
+}
+.box-child-5{
+  flex-grow: 1;
+}
+.box-child-6{
+  flex-grow: 1;
+}
+/*child of box-2*/
+.box-4{
+  display: flex;
+  height: 200px;
+  justify-content: center;
+}
+/*child of box-4*/
+.box-child-7{
+  flex-basis: 50%;
+  border-top: 0;
+  border-bottom: 0;
+}
+/*child of box-4*/
 /**/
 /**/
 /**/
