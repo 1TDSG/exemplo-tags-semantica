@@ -29,25 +29,47 @@ body{
 }
 
 .box-1{
-  height: 500px;
-  width: 70%;
+  display: flex;
+  height: 150px;
+}
+/*child of box-1*/
+.box-child-1{
+  flex-grow: 1;
+}
+.box-child-2{
+  flex-basis: 21%;
 }
 
-.box-2{
-  height: 500px;
-  width: 30%;
- }
+.box-child-3{
+  width: 60%;
+  height: 70%;
+}
 
-.div2{
+.box-child-4{
+  height: 60px;
+}
+
+.box-child-6{
+  height: 60px;
+}
+
+.div1{
   display: flex;
   flex-direction: row;
 }
-
-.div2 div{
-  height: 200px;
-  width: 30%;
+.box-child-12{
+  width: 60%;
+  height: 70%;
 }
-
+.box-child-8{
+  height: 60px;
+}
+.box-child-10{
+  height: 60px;
+}
+.div1 div{
+  width: 80%;
+}
 .box-6{
   flex-basis:15%;
 }

@@ -18,9 +18,7 @@ body{
 }
 
 .box{
-
   display: block;
-
   padding: 5px;
   margin: 20px;
   border: 2px solid #ff0000;

@@ -1,34 +1,57 @@
-  <!Doctype html>
-  <html lang="pt-br" dir="ltr">
-   <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width,initial-scale=1">
-     <link rel="stylesheet" href="./css/style-base.css" type="text/css">
-     <link rel="stylesheet" href="./css/exer-03-flex.css" type="text/css">
-     <title>EXERCÍIOS-FLEXBOX</title>
-   </head>
-   <body>
-     <header>
-       <nav>
-         <ul>
-           <a href="index.html">Início</a>
-           <a href="exer-01-flex.html">Exercício-1</a>
-           <a href="exer-02-flex.html">Exercício-2</a>
-           <a href="exer-03-flex.html">Exercício-3</a>
-         </ul>
-       </nav>
-     </header>
-     <div class="wrapper">
-       <div class="div1">
-          <div class="box box-1">BOX-1</div>
-          <div class="box box-2">BOX-2</div>
+<!Doctype html>
+<html lang="pt-br" dir="ltr">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width,initial-scale=1">
+   <link rel="stylesheet" href="./css/style-base.css" type="text/css">
+   <link rel="stylesheet" href="./css/exer-03-flex.css" type="text/css">
+   <title>EXERCÍIOS-FLEXBOX</title>
+ </head>
+ <body>
+   <header>
+     <nav>
+       <ul>
+         <a href="index.html">Início</a>
+         <a href="exer-01-flex.html">Exercício-1</a>
+         <a href="exer-02-flex.html">Exercício-2</a>
+         <a href="exer-03-flex.html">Exercício-3</a>
+       </ul>
+     </nav>
+   </header>
+   <div class="wrapper">
+        <div class="box box-1">BOX-1
+          <div class="box box-child-1">BOX-CHILD-1</div>
+          <div class="box box-child-2">BOX-CHILD-2</div>
         </div>
-        <div class="div2">
-          <div class="box">BOX-3</div>
-          <div class="box">BOX-4</div>
-          <div class="box">BOX-5</div>
+        <div class="box box-2">BOX-2</div>
+        <div class="box box-3">
+            <div style="float: left;" class="box box-child-3">BOX-CHILD-3</div>
+            <div style="float: right;">
+              <div class="div1">
+                <div class="box box-child-4">BOX-CHILD-4</div>
+                <div class="box box-child-5">BOX-CHILD-5</div>
+              </div>
+              <div class="div1">
+            <div class="box box-child-6">BOX-CHILD-6</div>
+            <div class="box box-child-7">BOX-CHILD-7</div>
+            </div>
+          </div>
         </div>
-          <div class="box box-6">BOX-6</div>
-     </div>
-   </body>
+        <div class="box box-4">BOX-4</div>
+        <div class="box box-5">
+          <div style="float: left;">
+            <div class="div1">
+          <div class="box box-child-8">BOX-CHILD-8</div>
+          <div class="box box-child-9">BOX-CHILD-9</div>
+            </div>
+            <div class="div1">
+          <div class="box box-child-10">BOX-CHILD-10</div>
+          <div class="box box-child-11">BOX-CHILD-11</div>
+          </div>
+          </div>
+          <div style="float: right;" class="box box-child-12">BOX-CHILD-12</div>
+      </div>
+      <div class="box box-6">BOX-6</div>
+   </div>
+ </body>
 </html>
